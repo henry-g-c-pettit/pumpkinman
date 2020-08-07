@@ -1,0 +1,11 @@
+The support for AI in unreal is pretty good.
+Was able to make a simple AI NPC to fight with in the game with it.
+This is due to all the different layers of stuff that can be piled on like collision to see the player is near and easy variable collection to move around. 
+with all these things i ws able to make the NPC move around and attack the player like a player easily.
+the hardest part of this is still adding more logic to it as it just get confusing to always warp head around what should happen and polishing up what is already happening.
+But for a more advanced AI can just use the AI controllers to do it aswell as behaviour trees. with these it takes away a lot of the confusion in using them. However is still a bit to 
+set them up so just used a copy of player and added collision detection to move it around.
+in other games people will use the behaviour trees to work through what the AI should do and the controller to make these happen. this allows them to easily scale up the AI and 
+make them more complex easier without having a mess of lines.
+if i was to make a more advanced of even just more AI i would use the tree and controller to simplify the AI. because as i coded it now i have to mess around a lot to add stuff 
+and player interactions arent scaling up well for more than one AI.
